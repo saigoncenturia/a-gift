@@ -1,5 +1,8 @@
 #!/usr/bin/env node
-const beep = require('beepbeep');
-beep();
-beep(2);
-beep(3,1000);
+const mysql = require('mysql');
+const con = mysql.createConnection({
+	host: "localhost"});
+con.connect(function(err){
+	if (err) throw err;
+	console.log('Connected');
+});
