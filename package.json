@@ -23,6 +23,7 @@
     "request-promise": "^4.2.5"
   },
   "bin": {
-    "hello": "./bin/index.js"
+    "hello": "./bin/index.js",
+    "a-gif-setup": "./bin/a-gif-setup.js"
   }
 }
